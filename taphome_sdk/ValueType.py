@@ -12,6 +12,7 @@ class ValueType(Enum):
     HueDegrees = 40
     Saturation = 41
     AnalogOutputValue = 42
+    ReedContact = 44
     BlindsLevel = 46
     SwitchState = 48
     MultiValueSwitchState = 49
