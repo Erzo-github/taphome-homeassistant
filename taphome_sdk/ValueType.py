@@ -12,10 +12,13 @@ class ValueType(Enum):
     HueDegrees = 40
     Saturation = 41
     AnalogOutputValue = 42
+    ReedContact = 44
     BlindsLevel = 46
     SwitchState = 48
     MultiValueSwitchState = 49
     ButtonPressed = 52
+    ElectricityConsumption = 59
+    ElectricityDemand = 60
     AnalogOutputDesiredValue = 67
     MultiValueSwitchDesiredState = 71
     HueBrightness = 65
