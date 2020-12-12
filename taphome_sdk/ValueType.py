@@ -3,6 +3,9 @@ from enum import Enum
 
 class ValueType(Enum):
     SensorBrightness = 2
+    Humidity = 3
+    RealTemperature = 5
+    DesiredTemperature = 6
     DeviceStatus = 7
     BlindsSlope = 10
     ButtonHeldState = 38
